@@ -1,0 +1,10 @@
+
+execution:
+- iterations: 10
+  concurrency: 10
+  ramp-up: 2s
+  scenario:
+    script: demo.jmx
+reporting:
+- module: final-stats
+  dump-xml: stats.xml
